@@ -1,0 +1,16 @@
+<h1> Words are</h1>
+<br/>
+{{a}}
+
+<h1>Total length is</h1>
+<br/>
+{{b}}
+<br/>
+<br/>
+{% for word,value in sorted_list%}
+{{word}} = {{value}}
+<br/>
+{% endfor %}
+
+
+<a href ="{%url 'index'%}">Back to Main Page</a>
